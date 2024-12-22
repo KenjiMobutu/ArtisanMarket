@@ -1,5 +1,5 @@
 {
-  "name": "vite-react-typescript-starter",
+  "name": "artisan-marketplace-frontend",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,9 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@stripe/stripe-js": "^3.0.7",
+    "axios": "^1.6.7",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.22.2",
+    "zustand": "^4.5.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",
